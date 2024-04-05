@@ -1,0 +1,22 @@
+{   
+    "starting_capital":10000000,
+    "position_capital":1000000,
+    "symbol":"BANKNIFTY",
+    "entry_start_time": "09:35:00", 
+    "entry_end_time" : "14:30:00",
+    "exit_time": "15:15:00",
+    "multiplier":25,
+    "timeframe": "10min",
+    "backtest_start_date": "2020-01-01",
+    "backtest_end_date":"2023-07-01",
+    "param_to_trade":"open",
+    "net_slippage" : 1,
+    "comm_brokerage_per_lot":6,
+    "vix_perc":0.8,
+    "intraday":true,
+    "strategy_name":"Straddle_920",
+    "legs_info" : [    
+        {"leg_id":"Leg_1","action":"sell","ratio":1 , "call_put":"CE" , "expiry_offset":0,"moneyness": 0,"strike_breach":null,"momentum_down_pct":20,"tgt_pct":null,"sl_pct":null}
+    
+    ]
+}
